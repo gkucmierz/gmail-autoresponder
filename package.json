@@ -1,0 +1,32 @@
+{
+  "name": "gmail-autoresponder",
+  "version": "0.0.0",
+  "description": "Simply change or view gmail autoresponder options from browser",
+  "main": "lib/main.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "start": "nodemon --ignore './lib' -e ts,json --exec 'npm run build && true'",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkucmierz/gmail-autoresponder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkucmierz/gmail-autoresponder/issues"
+  },
+  "homepage": "https://github.com/gkucmierz/gmail-autoresponder#readme",
+  "devDependencies": {
+    "events": "^3.1.0",
+    "gapi-browser": "^1.0.3",
+    "typescript": "^3.9.5"
+  }
+}
