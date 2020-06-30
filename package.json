@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/gkucmierz/gmail-autoresponder.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["gmail", "api", "autoresponder", "basic settings", "browser", "promise", "events", "gapi", "google"],
+  "author": "Grzegorz Kucmierz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gkucmierz/gmail-autoresponder/issues"
