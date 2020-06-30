@@ -1,6 +1,6 @@
 {
   "name": "gmail-autoresponder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simply change or view gmail autoresponder options from browser",
   "main": "lib/main.js",
   "types": "lib/index.d.ts",
