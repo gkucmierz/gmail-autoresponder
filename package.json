@@ -26,7 +26,9 @@
   "homepage": "https://github.com/gkucmierz/gmail-autoresponder#readme",
   "dependencies": {
     "events": "^3.1.0",
-    "gapi-browser": "^1.0.3",
+    "gapi-browser": "^1.0.3"
+  },
+  "devDependencies": {
     "typescript": "^3.9.5"
   }
 }
