@@ -1,6 +1,6 @@
 {
   "name": "gmail-autoresponder",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Simply change or view gmail autoresponder options from browser",
   "main": "lib/main.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,17 @@
     "type": "git",
     "url": "git+https://github.com/gkucmierz/gmail-autoresponder.git"
   },
-  "keywords": ["gmail", "api", "autoresponder", "basic settings", "browser", "promise", "events", "gapi", "google"],
+  "keywords": [
+    "gmail",
+    "api",
+    "autoresponder",
+    "basic settings",
+    "browser",
+    "promise",
+    "events",
+    "gapi",
+    "google"
+  ],
   "author": "Grzegorz Kucmierz",
   "license": "MIT",
   "bugs": {
