@@ -121,7 +121,6 @@ const GmailAutoresponder = (CLIENT_ID: string, API_KEY: string = '') => {
     setAutoresponder: requireSignin(setAutoresponder),
     resetAutoresponder: requireSignin(resetAutoresponder),
     getAutoresponder: requireSignin(getAutoresponder),
-    getAutoresponder2: getAutoresponder,
     signIn,
     signOut,
     eventEmitter,
