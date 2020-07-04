@@ -24,14 +24,14 @@ gmailAutoresponder.setAutoresponder('HTML Message', 'Topic', restrictContacts).t
 
 // reset - turn off vacation settings
 gmailAutoresponder.resetAutoresponder().then(
-  res => console.log('Set Autoresponder', res),
-  err => console.log('Error while setAutoresponder', err)
+  res => console.log('Reset Autoresponder', res),
+  err => console.log('Error while resetAutoresponder', err)
 );
 
 // get autoresponder settings
 gmailAutoresponder.getAutoresponder().then(
-  res => console.log('Set Autoresponder', res),
-  err => console.log('Error while setAutoresponder', err)
+  res => console.log('Get Autoresponder', res),
+  err => console.log('Error while getAutoresponder', err)
 );
 ```
 
